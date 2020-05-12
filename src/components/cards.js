@@ -5,7 +5,7 @@ import {FcIdea,FcRuler,FcMultipleSmartphones} from 'react-icons/fc'
 const Cards = (props)=>{
     return(
         <Row style={{textAlign:'center'}}>
-            <Col style={{padding:'3%'}} xs="12" md="4" lg="4" sm="4">
+            <Col style={{padding:'1% 3% 3% 3%'}} xs="12" md="4" lg="4" sm="4">
                 <Card  dir="rtl">
                     <Card.Img style={{height:'auto'}} alt="יזמות" variant="top" src={idea}/>
                     <Card.Footer className="Text">
@@ -13,7 +13,7 @@ const Cards = (props)=>{
                     </Card.Footer>
                 </Card>
             </Col>
-            <Col style={{padding:'3%'}} xs="12" md="4" lg="4" sm="4">
+            <Col style={{padding:'1% 3% 3% 3%'}} xs="12" md="4" lg="4" sm="4">
                 <Card  dir="rtl">
                     <Card.Img style={{height:'auto'}} alt="תפעול פיקוח יצור" variant="top" src={tapi}/>
                     <Card.Footer className="Text">
@@ -21,7 +21,7 @@ const Cards = (props)=>{
                     </Card.Footer>
                 </Card>
             </Col>
-            <Col style={{padding:'3%'}} xs="12" md="4" lg="4" sm="4">
+            <Col style={{padding:'1% 3% 3% 3%'}} xs="12" md="4" lg="4" sm="4">
                 <Card  dir="rtl">
                     <Card.Img style={{height:'auto'}} alt="מערכות מידע" variant="top" src={code}/>
                     <Card.Footer className="Text">
