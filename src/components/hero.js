@@ -1,12 +1,12 @@
 import React from 'react';
 import LazyHero from 'react-lazy-hero';
 import CountdownTimer from './countdown';
-import {cover2,ruppin} from '../assets/images';
+import {background,ruppin} from '../assets/images';
 import Navbar from 'react-bootstrap/Navbar'
 const Hero = ()=> {
     return (
-        <div style={{borderBottom:'1px solid',direction:'rtl'}}>
-            <LazyHero opacity={0.1} imageSrc={cover2}>
+        <div style={{borderBottom:'2px solid',direction:'rtl'}}>
+            <LazyHero opacity={0.1} imageSrc={background}>
                 <Navbar style={{background:'transparent',direction:'ltr',width:'100vw',justifyContent:'center'}}>
                     <Navbar.Brand style={{cursor:'pointer'}} onClick={()=>window.open('http://proj.ruppin.ac.il/gallery/','_blank')}>
                         <img

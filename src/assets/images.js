@@ -3,4 +3,5 @@ export const cover2 = require('./images/cover2.jpg');
 export const code = require('./images/code.jpg');
 export const idea = require('./images/idea.jpg');
 export const tapi = require('./images/tapi.jpg');
-export const ruppin = require('./images/Welearn-Ruppin.png')
+export const ruppin = require('./images/Welearn-Ruppin.png');
+export const background = require('./images/background1.jpg')

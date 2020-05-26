@@ -1,25 +1,17 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import Countdown from 'react-countdown';
- 
-const Completionist = () => <span></span>;
- 
-// Renderer callback with condition
-const renderer = ({ hours, minutes, seconds, completed }) => {
-  if (completed) {
-    // Render a completed state
-    return <Completionist />;
-  } else {
-    // Render a countdown
-    return <span>{hours}:{minutes}:{seconds}</span>;
-  }
-};
-
+import Count2 from './countdown2';
+import '../css/countdown.css'
 const CountdownRPS=()=>{
     return(
-        <div className="countText" style={{fontFamily:'Wallpoet, cursive'}}>
-            <Countdown date={'2020-06-23'} />
-        </div>
+    //     <div className="countText" style={{fontFamily:'Montserrat, sans-serif'}}>
+    //         <Countdown 
+    //         date={'2020-06-23'}
+    // renderer={(props)=><span>{props.days}:{props.hours}:{props.minutes}:{props.seconds}</span>}
+    //          />
+             
+    //     </div>
+        <Count2 targetDate="Jun 25, 2020" targetTime="18:00:00"/>
     )
 }
 
