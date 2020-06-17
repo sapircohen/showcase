@@ -18,7 +18,7 @@ const Hero = ()=> {
                         />
                     </Navbar.Brand>
                 </Navbar>
-                <span className="text" style={{fontFamily:'Varela Round, sans-serif'}}>כנס הפרויקטים של המחלקה להנדסת תעשיית וניהול <br/>במרכז האקדמי רופין 2020</span>
+                <span className="text" style={{fontFamily:'Varela Round, sans-serif'}}>כנס הפרויקטים של המחלקה להנדסת תעשייה וניהול <br/>במרכז האקדמי רופין 2020</span>
                 <br/>
                 <CountdownTimer/>
             </LazyHero>
