@@ -3,6 +3,7 @@
   ##Screen = 1281px to higher resolution desktops
 */
 
+
 @media (min-width: 1281px) {
   
     .text{
@@ -12,7 +13,7 @@
         font-size: 300%;
     }
     body{
-      overflow-y: hidden;
+      height: 100vh;
     }
   }
   
@@ -30,7 +31,7 @@
         font-size: 300%;
     }
     body{
-      overflow-y: hidden;
+      height: 100vh;
     }
   }
   
