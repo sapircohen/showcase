@@ -10,4 +10,6 @@ export const tapi = require('./images/tapi.jpg');
 export const tapi2 = require('./images/tapi2.jpg');
 
 export const ruppin = require('./images/Welearn-Ruppin.png');
-export const background = require('./images/background1.jpg')
+export const background = require('./images/background1.jpg');
+
+export const browser = require('./images/browser.svg');
